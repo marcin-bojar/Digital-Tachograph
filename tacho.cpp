@@ -27,6 +27,7 @@ Tacho::Tacho()
 
 Tacho::~Tacho()
 {
+	TACHOinout.close();
 }
 
 void Tacho::show() const
